@@ -10,11 +10,15 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-background via-pink/5 to-background" />
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-orange/3 to-transparent" />
         
-        {/* Floating geometric elements */}
-        <div className="absolute top-20 left-10 w-32 h-32 border-2 border-foreground/20 rounded-lg rotate-12 animate-pulse" />
-        <div className="absolute top-40 right-20 w-24 h-24 border border-pink/30 rounded-lg -rotate-12" />
-        <div className="absolute bottom-32 left-1/4 w-16 h-16 border border-orange/40 rounded-lg rotate-45" />
-        <div className="absolute bottom-20 right-1/3 w-20 h-20 border-2 border-foreground/10 rounded-lg -rotate-6" />
+        {/* Floating geometric elements with animations */}
+        <div className="absolute top-20 left-10 w-32 h-32 border-2 border-foreground/20 rounded-lg rotate-12 animate-pulse animate-float" />
+        <div className="absolute top-40 right-20 w-24 h-24 border border-pink/30 rounded-lg -rotate-12 animate-float" style={{animationDelay: '2s'}} />
+        <div className="absolute bottom-32 left-1/4 w-16 h-16 border border-orange/40 rounded-lg rotate-45 animate-pulse-glow" />
+        <div className="absolute bottom-20 right-1/3 w-20 h-20 border-2 border-foreground/10 rounded-lg -rotate-6 animate-rotate-slow" />
+        
+        {/* Additional floating elements */}
+        <div className="absolute top-1/3 left-1/6 w-12 h-12 border border-red/50 rounded-full animate-float" style={{animationDelay: '4s'}} />
+        <div className="absolute top-2/3 right-1/6 w-8 h-8 border border-orange/60 rounded-full animate-pulse" />
         
         {/* Gradient orbs */}
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink/10 rounded-full blur-3xl" />
