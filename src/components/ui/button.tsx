@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-sm hover:shadow-md",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-to-r from-pink via-orange to-red text-white hover:from-pink/90 hover:via-orange/90 hover:to-red/90 shadow-lg hover:shadow-xl transform hover:scale-105 border border-white/20",
+        hero: "bg-gradient-to-r from-pink via-red via-yellow to-orange text-white hover:from-pink/90 hover:via-red/90 hover:via-yellow/90 hover:to-orange/90 shadow-lg hover:shadow-xl transform hover:scale-105 border border-white/20",
         success: "bg-success text-success-foreground hover:bg-success/90 shadow-md hover:shadow-lg",
         warning: "bg-warning text-warning-foreground hover:bg-warning/90 shadow-md hover:shadow-lg",
       },

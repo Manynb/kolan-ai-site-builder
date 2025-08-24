@@ -63,6 +63,7 @@ export default {
 				pink: 'hsl(var(--pink))',
 				orange: 'hsl(var(--orange))',
 				red: 'hsl(var(--red))',
+				yellow: 'hsl(var(--yellow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -36,54 +36,54 @@ const features = [
     title: "Tempo Real",
     description: "Visualize suas mudanças instantaneamente com nossa pré-visualização em tempo real.",
     badge: "Instantâneo",
-    color: "text-orange",
-    bgColor: "bg-orange/10",
-    hoverBg: "hover:bg-orange/20"
+    color: "text-yellow",
+    bgColor: "bg-yellow/10",
+    hoverBg: "hover:bg-yellow/20"
   },
   {
     icon: Globe,
     title: "Publicação Automática",
     description: "Deploy direto para Netlify ou GitHub Pages com um clique. Seu site online em segundos.",
     badge: "One-Click",
-    color: "text-pink",
-    bgColor: "bg-pink/10",
-    hoverBg: "hover:bg-pink/20"
+    color: "text-orange",
+    bgColor: "bg-orange/10",
+    hoverBg: "hover:bg-orange/20"
   },
   {
     icon: Code,
     title: "Exportação Limpa",
     description: "Código HTML/CSS otimizado e limpo. Leve seu projeto para qualquer lugar.",
     badge: "Código Limpo",
-    color: "text-red",
-    bgColor: "bg-red/10",
-    hoverBg: "hover:bg-red/20"
+    color: "text-pink",
+    bgColor: "bg-pink/10",
+    hoverBg: "hover:bg-pink/20"
   },
   {
     icon: CreditCard,
     title: "Sistema de Créditos",
     description: "Comece com $5 grátis. Use IA por apenas $0.50 por mensagem. Recarregue quando precisar.",
     badge: "Flexível",
-    color: "text-orange",
-    bgColor: "bg-orange/10",
-    hoverBg: "hover:bg-orange/20"
+    color: "text-red",
+    bgColor: "bg-red/10",
+    hoverBg: "hover:bg-red/20"
   },
   {
     icon: Smartphone,
     title: "100% Responsivo",
     description: "Sites que funcionam perfeitamente em desktop, tablet e mobile. Design adaptativo automático.",
     badge: "Mobile-First",
-    color: "text-pink",
-    bgColor: "bg-pink/10",
-    hoverBg: "hover:bg-pink/20"
+    color: "text-yellow",
+    bgColor: "bg-yellow/10",
+    hoverBg: "hover:bg-yellow/20"
   },
   {
     icon: Shield,
     title: "Hospedagem Segura",
     description: "SSL gratuito, CDN global e backups automáticos. Seu site sempre protegido e rápido.",
     badge: "Seguro",
-    color: "text-red",
-    bgColor: "bg-red/10",
-    hoverBg: "hover:bg-red/20"
+    color: "text-orange",
+    bgColor: "bg-orange/10",
+    hoverBg: "hover:bg-orange/20"
   }
 ];
 
